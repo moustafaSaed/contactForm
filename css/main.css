@@ -1,0 +1,8 @@
+body {
+    background-image: url("../assets/images/backg.png");
+    background-size: cover;
+}
+body form  {}
+body form > div {}
+body form > div h2 {}
+body form > div input[type="text"] {}
