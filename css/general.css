@@ -24,7 +24,7 @@ ol {
     list-style: none;
 }
 
-.flx {
+.df {
     display: flex;
 }
 .aic {
@@ -48,6 +48,8 @@ ol {
 .jcse {
     justify-content: space-evenly;
 }
+
+
 .gap2 {gap: 2px;}
 .gap5 {gap: 5px;}
 .gap10 {gap: 10px;}
@@ -68,6 +70,11 @@ ol {
 .m20 {margin: 20px;}
 .m25 {margin: 25px;}
 .m30 {margin: 30px;}
+
+.w20 {width: 20%;}
+.w25 {width: 25%;}
+.w50 {width: 50%;}
+.w100 {width: 100%;}
 
 .cntr-flx {display: flex;align-items: center;justify-content: center;}
 .cntr-pos {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}

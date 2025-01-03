@@ -2,7 +2,85 @@ body {
     background-image: url("../assets/images/backg.png");
     background-size: cover;
 }
-body form  {}
-body form > div {}
-body form > div h2 {}
-body form > div input[type="text"] {}
+body form  {
+    background-color: #faebd7de;
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+body form > div {
+    width: 90%;
+}
+body form > div:nth-child(1),
+body form > div:nth-child(2) {
+    width: 45%;
+}
+
+body form > div h2 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #926d5a;
+    text-transform: capitalize;
+}
+label {
+    color: #926d5a;
+}
+
+
+body form > div input,
+body form > div .radio,
+textarea {
+    padding: 7px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #926d5a;
+    color: #926d5a;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .2s;
+}
+body form > div input:hover:not(input[type="submit"]:hover) {
+    border: 2px solid #371b0d;
+}
+body form > div input:focus:not(input[type="submit"]:focus) {
+    border: 1px solid #371b0d;
+    border-bottom: 3px solid;
+    box-shadow: 0px 11px 13px -3px #79554845;
+}
+body form > div input[type="text"] {
+    width: 60%;
+}
+body form > div input[type="email"] {
+    width: 80%;
+}
+body form > div .radio {
+    width: 37%;
+}
+body form > div .radio input[type="radio"] {}
+body form > div .radio label.r {}
+body form > div textarea {
+    width: 80%;
+}
+body form > div input[type="checkbox"] {}
+body form > div label.cookie {}
+body form > div input[type="submit"] {
+    width: 80%;
+    background-color: #926d5a;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 1s;
+    border: none;
+}
+body form > div input[type="submit"]:hover {
+    opacity: .9;
+    /* scale: .99; */
+}
+body form > div input[type="submit"]:focus {
+    border-bottom: 3px solid;
+    box-shadow: 0px 11px 13px -3px #79554845;
+}
